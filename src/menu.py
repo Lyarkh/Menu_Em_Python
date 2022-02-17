@@ -10,6 +10,7 @@ class Menu:
 
     def run(self):
         self.apresenta_programa()
+        sleep(0.8)
         
         while self.estado:
             self.limpa_tela()
